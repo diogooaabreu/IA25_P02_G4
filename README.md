@@ -1,47 +1,69 @@
-# Project 02 – Artificial Intelligence (IA25_P02_G##)
+# Project 02 – Artificial Intelligence (IA25_P02_G04)
 
 ## Group Members
-- Pedro Ribeiro — 27960
-- Ricardo Fernandes — 27961
-- Carolina Branco — 27983
-- João Barbosa — 27964
-- Diogo Abreu — 27975
+- **Pedro Ribeiro** — 27960  
+- **Ricardo Fernandes** — 27961  
+- **Carolina Branco** — 27983  
+- **João Barbosa** — 27964  
+- **Diogo Abreu** — 27975  
+
+---
 
 ## Project Overview
-This project focuses on the application of **Artificial Intelligence (AI)** techniques to sports data, specifically analyzing the historical dataset of NFL Super Bowl games (1967–2020).  
-The goal is to explore the dataset, perform exploratory data analysis (EDA), and apply machine learning techniques for:
+This project explores the application of **Artificial Intelligence (AI)** techniques on sports datasets, using **two separate datasets** for different machine learning tasks:
 
-1. Automatic Classification — Predict game outcomes or categories (e.g., high scoring games, competitive games).
-2. Clustering — Group similar Super Bowl games based on features to discover patterns.
-3. Association Rules — Identify frequent relationships between game variables (e.g., points, teams, MVPs, locations).
+1. **Olympic Athletes Dataset (120 Years of Athlete History)**  
+   - Used for **Automatic Classification**.  
+   - The goal is to predict athlete outcomes (Medal: Gold, Silver, Bronze, or None) based on features such as Age, Height, Weight, Sport, Team, and Event.
 
-## Repository Link
+2. **NFL Super Bowl Dataset (1967–2020)**  
+   - Used for **Clustering** and **Association Rules** analysis.  
+   - The goal is to discover patterns, group similar games, and identify frequent relationships between game attributes (e.g., teams, points, MVPs, locations).
+
+This project combines **data exploration**, **feature engineering**, and **machine learning analysis** to provide actionable insights for sports analysts, commentators, and enthusiasts across both datasets.
+
+---
+
+## Repository
 The full project repository is available at:
 
 [https://github.com/diogooaabreu/IA25_P02_G4.git](https://github.com/diogooaabreu/IA25_P02_G4.git)
 
-## Deliverables
-The project includes:
+---
 
-1. **Notebook 0 – Dataset Overview & EDA**  
-   - Introduction, dataset description, metadata, and exploratory data analysis.
-   - Submitted as the **preliminary delivery**.
+## Project Structure & Deliverables
 
-2. **Notebook 1 – Automatic Classification**  
-   - Definition of business goals, data preparation, feature engineering, algorithm selection, model training, evaluation, and hyperparameter tuning.
+### 1. Olympic Athletes Dataset Overview & EDA Notebook
+- Provides an introduction to the Olympic Athletes dataset and its attributes.  
+- Performs **exploratory data analysis (EDA)** including descriptive statistics, visualizations, and feature investigation.  
 
-3. **Notebook 2 – Clustering**  
-   - Data preparation, application of K-Means, analysis of cluster characteristics, and evaluation.
+### 2. Superbowl Dataset Overview & EDA Notebook
+- Provides an introduction to the dataset and its attributes.  
+- Performs **exploratory data analysis (EDA)** including descriptive statistics, visualizations, and feature investigation.  
 
-4. **Notebook 3 – Association Rules**  
-   - Data preparation, application of Apriori algorithm, analysis of discovered rules, and interpretation.
+### 3. Notebook 1 – Automatic Classification
+- Defines business goals and target variables.  
+- Prepares the data with **cleaning, feature engineering, and encoding**.  
+- Implements machine learning algorithms for classification
 
-5. **Other files**  
-   - Dataset (`superbowl.csv`)
-   - Any helper scripts or required files to run the notebooks.
+### 4. Notebook 2 – Clustering
+- Prepares the superbowl dataset for unsupervised learning.  
+- Applies clustering algorithms (e.g., **K-Means**) and analyzes the characteristics of each cluster.  
+- Provides visualizations and interpretations of clusters to uncover patterns in the games.
 
-## Notes
-- All notebooks are compatible with **VS Code / Jupyter Notebook**.
-- Required Python libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `mlxtend`.
-- All notebooks are self-contained and include markdown explanations for each step.
+### 5. Notebook 3 – Association Rules
+- Prepares the superbowl dataset for frequent pattern mining.  
+- Applies the **Apriori algorithm** to extract association rules between game features.  
+- Interprets rules to reveal interesting relationships among teams, points, locations, and MVPs.
+
+### 6. Additional Files
+- **Superbowl Dataset:** `superbowl.csv`  
+- **Olympic Athletes Dataset** `athlete_events.csv`
+---
+
+## Technical Notes
+- All notebooks are compatible with **VS Code** and **Jupyter Notebook**.  
+- Required Python libraries:  
+  `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `mlxtend`.  
+- Notebooks are self-contained and include **markdown explanations** for each step.  
 
