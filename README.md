@@ -61,9 +61,34 @@ The full project repository is available at:
 - **Olympic Athletes Dataset** `athlete_events.csv`
 ---
 
-## Technical Notes
-- All notebooks are compatible with **VS Code** and **Jupyter Notebook**.  
-- Required Python libraries:  
-  `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `mlxtend`.  
-- Notebooks are self-contained and include **markdown explanations** for each step.  
+## How to Run the Project
+To run the notebooks and reproduce the analysis, follow these steps:
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/diogooaabreu/IA25_P02_G4.git
+   cd IA25_P02_G4
+   ```
+   
+2. **Install required Python libraries**
+
+   Make sure you have Python installed (preferably version 3.8+). Then install the required libraries using pip:
+
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn mlxtend
+   ```
+
+3. **Download the datasets**
+
+   Place the CSV files in the root folder of the project (same level as the notebooks). Use the links below to download them:
+
+   - Olympic Athletes Dataset (`athlete_events.csv`)
+   https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
+
+   - NFL Super Bowl Dataset (`superbowl.csv`)
+   https://www.kaggle.com/datasets/maxhorowitz/nfl-super-bowl-history
+
+4. **Open and run the notebooks**
+
+   You can use VS Code or Jupyter Notebook to open the .ipynb files. Execute the cells in order to reproduce the analyses.
 
